@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="body-el">
+        <section>
+            <div class="color-options">
+                <input
+                type="color"
+                class="color-input"
+                id="color-input"
+                name="color-input">
+                    <select
+                    class="mode-select"
+                    id="mode-select"
+                    name="mode-select">
+                    <option>monochrome</option>
+                        <option>monochrome-dark</option>
+                            <option>monochrome-light</option>
+                                <option>analogic</option>
+                                <option>complement</option>
+                            <option>analogic-complement</option>
+                        <option>triad</option>
+                    <option>quad</option>
+                    </select>
+                <button class="get-colors-btn" id="get-colors-btn">
+                    Get colors
+                </button>
+                <div class="toggle-container">
+                    <input type="checkbox" id="theme-toggle"></input>
+                    <label for="theme-toggle" class="theme-toggle"></label>
+                </div>
+            </div>
+            <div class="color-palette" id="color-palette"></div>
+            <div class="copied-notice" id="copied-notice"></div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "name": "Color Scheme Generator",
+    "short_name": "Color Scheme Generator",
+    "icons": [
+        {
+            
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "clipboard-write",
+        "clipboard-read"
+    ]
+}
